@@ -1,0 +1,1 @@
+{"ROLE" : "REC", "TYPE" : "ARP", "RATE" : "5", "WIN_LEN" : "2", "DATA_PATH" : "/home/pi/CRCC_data.txt", "DATA_PRINT" : "1", "OUTPUT_PATH" : "/home/pi/CRCC_output"}
