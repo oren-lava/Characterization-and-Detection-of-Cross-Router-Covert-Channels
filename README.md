@@ -17,6 +17,7 @@ This repository contains the source code used in the paper "Characterization and
 ## Authors
 
 Main author: Oren Shvartzman (orenshva@post.bgu.ac.il)
+
 co-authors: Adar Ovadya, Kfir Zvi, Omer Schwartz, Rom Ogen, Yakov Mallah, Niv Gilboa, and Yossi Oren
 
 ## Acknowledgments
