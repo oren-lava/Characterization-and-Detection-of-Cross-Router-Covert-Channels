@@ -1,12 +1,16 @@
 # Characterization and Detection of Cross-Router Covert Channels
 
-This repository contains the source code and data used in the paper "Characterization and Detection of Cross-Router Covert Channels". The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
+This repository contains the source code used in the paper "Characterization and Detection of Cross-Router Covert Channels". The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
 
 The paper presentes two network timing covert channel that break logical isolation between two networks hosted by a single shared router: CRCC and Wi-Fi Micro-jamming attacks. 
 
-By using these covert channels, we were able to leak information between the two networks, even though the overt communication is blocked. By deliberately exhausting the router's resources according to the leaked information bits, a machine in the host network can signal the information to a machine in the guest network.
+By using these covert channels, we were able to leak information between the two networks, even though the overt communication is blocked.
 
 ![Picture3](https://user-images.githubusercontent.com/61083859/204087248-ce8bcdbe-72d2-4e32-afa9-cf885fa11bb3.png)
+
+Both attacks deliberately exhausta the router's physical resources according to the leaked information bits. By doing so, a machine in the host network can signal the information to a machine in the guest network that periodically measures the router's response times. Normal response times are associated with the '0' bit, and large response times are associated with the '1' bit.
+
+![Picture4](https://user-images.githubusercontent.com/61083859/204089661-7a360f3e-c750-4bcd-9677-d2a064d42f6a.png)
 
 Also, the paper presents a method of detecting both attacks using a ML/DL detector. The models extract behavioral features from the network traffic and can detect anomalies caused by these attacks. The models used are semi-supervised models that perform novelty detection.
 
