@@ -2,6 +2,8 @@
 
 This repository contains the source code used in the paper "Characterization and Detection of Cross-Router Covert Channels". The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
 
+## Attacks
+
 The paper presentes two network timing covert channel that break logical isolation between two networks hosted by a single shared router: CRCC and Wi-Fi Micro-jamming attacks. 
 
 By using these covert channels, we were able to leak information between the two networks, even though the overt communication is blocked.
@@ -12,7 +14,9 @@ Both attacks deliberately exhausta the router's physical resources according to 
 
 ![Picture4](https://user-images.githubusercontent.com/61083859/204089661-7a360f3e-c750-4bcd-9677-d2a064d42f6a.png)
 
-Also, the paper presents a method of detecting both attacks using a ML/DL detector. The models extract behavioral features from the network traffic and can detect anomalies caused by these attacks. The models used are semi-supervised models that perform novelty detection.
+## Defense
+
+The paper also presents a method of detecting both attacks using a ML/DL detector. The models extract behavioral features from the network traffic and can detect anomalies caused by these attacks. The models used are semi-supervised models that perform novelty detection.
 
 To detect the attacks we used:
 
