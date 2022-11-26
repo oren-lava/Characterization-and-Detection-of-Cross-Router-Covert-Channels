@@ -1,6 +1,6 @@
-## Characterization and Detection of Cross-Router Covert Channels
+# Characterization and Detection of Cross-Router Covert Channels
 
-This repository contains the source code and data used in the paper "Characterization and Detection of Cross-Router Covert Channels".
+This repository contains the source code and data used in the paper "Characterization and Detection of Cross-Router Covert Channels". The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
 
 The paper presentes two network timing covert channel that break logical isolation between two networks hosted by a single shared router: CRCC and Wi-Fi Micro-jamming attacks. 
 
