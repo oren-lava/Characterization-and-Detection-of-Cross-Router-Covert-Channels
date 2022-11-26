@@ -2,25 +2,25 @@
 
 This repository contains the source code used in the paper "Characterization and Detection of Cross-Router Covert Channels".
 
-### Getting Started
+## Getting Started
 
-#### Dependencies
+### Dependencies
 
 * Python 3
 * scapy
 * tcpdump
 
-#### Setup
+### Setup
 
 * The setup should be built as described in the paper.
 
-### Authors
+## Authors
 
 Main author: Oren Shvartzman (orenshva@post.bgu.ac.il)
 
 co-authors: Adar Ovadya, Kfir Zvi, Omer Schwartz, Rom Ogen, Yakov Mallah, Niv Gilboa, and Yossi Oren
 
-### Acknowledgments
+## Acknowledgments
 
 This work was supported by Israel Science Foundation
 grants 702/16 and 703/16. We thank Eyal Ronen for
