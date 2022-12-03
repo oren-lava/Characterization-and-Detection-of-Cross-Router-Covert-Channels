@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Shvartzman, Ovadya, Zvi, Schwartz, Ogen, Mallah, Gilboa, Oren
+    given-names: Oren, Adar, Kfir, Omer, Rom, Yakov, Niv, Yossi
+title: "Characterization and Detection of Cross-Router Covert Channels"
+version: 1.0.0
+date-released: 07-08-2022
