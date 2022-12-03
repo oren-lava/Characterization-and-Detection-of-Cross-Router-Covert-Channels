@@ -8,7 +8,7 @@ The paper presentes two network timing covert channel that break logical isolati
 
 By using these covert channels, we were able to leak information between the two networks, even though the overt communication is blocked.
 
-![Picture3](https://user-images.githubusercontent.com/61083859/204087248-ce8bcdbe-72d2-4e32-afa9-cf885fa11bb3.png)
+![cc](https://user-images.githubusercontent.com/61083859/205455862-e2faf627-cf7e-4e89-8b2e-e0fb57b14c29.PNG)
 
 Both attacks deliberately exhausta the router's physical resources according to the leaked information bits. By doing so, a machine in the host network can signal the information to a machine in the guest network that periodically measures the router's response times. Normal response times are associated with the '0' bit, and large response times are associated with the '1' bit.
 
