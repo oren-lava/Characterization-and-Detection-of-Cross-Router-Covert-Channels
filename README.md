@@ -2,6 +2,8 @@
 
 This repository contains the source code used in the paper "Characterization and Detection of Cross-Router Covert Channels". The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
 
+This work was done with the guidance of Dr. Yossi Oren. To access the paper that shows this work, go to Dr. Oren's labratory website: [orenlab](https://orenlab.sise.bgu.ac.il/p/CovertChannelDefense).
+
 ## Attacks
 
 The paper presentes two network timing covert channel that break logical isolation between two networks hosted by a single shared router: CRCC and Wi-Fi Micro-jamming attacks. 
@@ -47,7 +49,7 @@ The Defense folder contains the source code of the ML/DL detector, the feature e
 
 Main author: Oren Shvartzman (orenshva@post.bgu.ac.il)
 
-co-authors: Adar Ovadya, Kfir Zvi, Omer Schwartz, Rom Ogen, Yakov Mallah, Niv Gilboa, and Yossi Oren
+Co-authors: Adar Ovadya, Kfir Zvi, Omer Schwartz, Rom Ogen, Yakov Mallah, Niv Gilboa, and Yossi Oren
 
 ## Acknowledgments
 
