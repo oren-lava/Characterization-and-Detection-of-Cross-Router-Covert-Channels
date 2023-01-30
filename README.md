@@ -1,8 +1,8 @@
 # Characterization and Detection of Cross-Router Covert Channels
 
-This repository contains the source code used in the paper "Characterization and Detection of Cross-Router Covert Channels". The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
+This repository contains the source code used in the paper "Characterization and Detection of Cross-Router Covert Channels". To access the paper, go to Dr. Oren's laboratory website: [orenlab](https://orenlab.sise.bgu.ac.il/p/CovertChannelDefense).
 
-This work was done with the guidance of Dr. Yossi Oren. To access the paper that shows this work, go to Dr. Oren's labratory website: [orenlab](https://orenlab.sise.bgu.ac.il/p/CovertChannelDefense).
+The full data used in the paper is accessible with [this link](https://drive.google.com/drive/folders/1h1lWvswOnmDA2hYyrrAQ5CUjDiv0dTMG?usp=sharing).
 
 ## Attacks
 
